@@ -11,7 +11,33 @@ Small vanilla javascript library for x,y transforms while scrolling
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+```html
+<div class="scroll-motion" data-speed-y="-2">
+  Vertical scroll slow
+</div>
+<div class="scroll-motion" data-speed-y="7">
+  Vertical scroll fast
+</div>
+<div class="rellax" data-speed-x="3">
+  Horizontal scroll
+</div>
+
+<script src="scroll-motion.js"></script>
+<script>
+  // Accepts any class name
+  var scrollMotion = new ScrollMotion('.scroll-motion');
+</script>
+```
+```html
+<script>
+  // Also can pass in optional settings block
+  var scrollMotion = new ScrollMotion('.scroll-motion', {
+    speedX: -2,
+    speedY: 0,
+    observe: 1,
+  });
+</script>
+```
 
 ### Prerequisites
 
