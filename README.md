@@ -31,11 +31,12 @@ Small vanilla javascript library for x,y transforms while scrolling
 ```html
 <script>
   // Also can pass in optional settings block
-  var scrollMotion = new ScrollMotion('.scroll-motion', {
+  let scrollMotion = new ScrollMotion('.scroll-motion', {
     speedX: -2,
     speedY: 0,
     observe: 1,
   });
+  scrollMotion();
 </script>
 ```
 
@@ -48,7 +49,12 @@ Small vanilla javascript library for x,y transforms while scrolling
 To get Scroll Motion running on your local machine do the following steps.
 
 1. ```git clone https://github.com/whiteboxpub/scroll-motion.git```
-1. ```cd scroll-motion```
+2. ```cd scroll-motion```
+
+or 
+
+1. ```npm install intersection-observer``` (polyfill)
+2. ```npm install scroll-motion```
 
 ## Built With
 * Vanilla JS
