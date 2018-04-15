@@ -1,0 +1,25 @@
+{
+  "name": "scroll-motion",
+  "version": "1.0.0",
+  "description": "Small vanilla javascript library for doing x,y transforms while scrolling",
+  "main": "scroll-motion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whiteboxpub/scroll-motion.git"
+  },
+  "keywords": [
+    "animation",
+    "scroll",
+    "vanilla",
+    "javascript"
+  ],
+  "author": "Steven Price <hello@stevenjacobprice.com> (https://dev.stevenjacobprice.com/scroll_motion)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whiteboxpub/scroll-motion/issues"
+  },
+  "homepage": "https://github.com/whiteboxpub/scroll-motion#readme"
+}
