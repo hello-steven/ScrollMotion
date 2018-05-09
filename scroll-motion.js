@@ -16,7 +16,7 @@
     module.exports = factory();
   } else {
     // Browser globals (root is window)
-    root.Rellax = factory();
+    root.ScrollMotion = factory();
   }
 }(this, function () {
   const ScrollMotion = function (selector) {
