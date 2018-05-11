@@ -6,6 +6,9 @@ Small vanilla javascript library for x,y transforms while scrolling
 
 ### https://dev.stevenjacobprice.com/scroll_motion/
 
+### Figma Motion Exploration Demo:
+### https://dev.stevenjacobprice.com/demo-figma/
+
 ## Inspiration
 + RELLAX.js [github](https://github.com/yairEO/rellax)
 
