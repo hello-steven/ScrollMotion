@@ -1,6 +1,6 @@
 {
   "name": "scroll-motion",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Small vanilla javascript library for doing x,y transforms while scrolling",
   "main": "scroll-motion.js",
   "scripts": {
